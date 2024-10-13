@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #86270a, #0d1f87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero h1 span{
+    color: #7e7878;
+}
+
+.hero TEXTarea {
+    width: 600px;
+    height: 250px;
+    background: white;
+    font-size: 20px;
+    outline: 0;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    resize: none;
+    color: #000000;
+}
+
+textarea::placeholder {
+    font-size: 20px;
+    color: #000000;
+}
+
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background: #000000;
+    color: #ffffff;
+    font-size: 28px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    align-items: center;
+}
+
+select {
+    flex: 1;
+    color: #000000;
+    background: white;
+    height: 40px;
+    padding: 0 2px;
+    outline: 0;
+    border-radius: 25px;
+    /* appearance: none; */
+    font-size: 16px;
+}
